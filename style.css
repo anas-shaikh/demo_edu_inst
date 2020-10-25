@@ -4,9 +4,9 @@ body{
     padding: 0;
 }
 /*menu start*/
-.wrapper{
-    background: linear-gradient(to right,#3399ff , #cce6ff)
-     no-repeat center center;
+.main_container{
+    background: url(pics/unipic3.jpg) no-repeat center center  fixed;
+    background-size: cover;
     min-height: 480px;
 }
 
@@ -34,10 +34,10 @@ nav ul li a{
     padding: 20px;
 }
 
-img{
+.logo{
     width: 14%;
     margin-left: 30.4px;
-    margin-top: -4%;
+    position: absolute;
 }
 
 nav ul li:hover{
@@ -62,7 +62,7 @@ nav ul li:hover{
 }
 
 .section p{
-    color: gray;
+    color: rgb(80, 77, 77);
 }
 
 .btn-1{
@@ -100,6 +100,7 @@ showcase h1{
 
 #courses img{
     width: 250px;
+    height: 200px;
     border-radius: 10px;
     border: 2px solid #000;
 }
